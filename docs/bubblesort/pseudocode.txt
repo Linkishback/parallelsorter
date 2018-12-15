@@ -1,0 +1,11 @@
+source: http://www.algorithmist.com/index.php/Bubble_sort
+
+a is an array size n
+
+swapped = true
+      while swapped
+        swapped = false
+        for j from 0 to N - 1
+           if a[j] > a[j + 1]
+              swap( a[j], a[j + 1] )
+              swapped = true

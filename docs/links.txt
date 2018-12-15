@@ -1,0 +1,11 @@
+algorithmist: sorting algorithms
+http://www.algorithmist.com/index.php/Sorting
+
+slideshow about parallel sorting:
+https://www.slideshare.net/GARIMASHAKYA1/parallel-sorting-algorithms
+
+java multithreading:
+https://www.tutorialspoint.com/java/java_multithreading.htm
+
+Java Concurrency / Multithreading Basics:
+https://www.callicoder.com/java-concursrency-multithreading-basics/

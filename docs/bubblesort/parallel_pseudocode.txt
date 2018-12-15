@@ -1,0 +1,10 @@
+for k=0 to n-1
+    if k is even then
+        for i=0 to (n/2) do in parallel
+            if a[2i] > A[2i+1] then
+                exchange a[2i] with a[2i+1]
+    else
+        for i=0 to (n/2)-1 do in parallel
+                if a[2i+1] > A[2i+2] then
+                    exchange a[2i+1] with a[2i+2]
+next k

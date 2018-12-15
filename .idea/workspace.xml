@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee9dff5f-9922-4dcf-97c7-1a4de5b52f5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/QuickSort.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MultithreadedSorter$Main.ic" NAME="Main Coverage Results" MODIFIED="1544515444394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/QuickSortTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/enums/SortAlgorithmType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1120">
+              <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/MergeSortTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/ui/interfaces/SorterUIActionListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/BubbleSortTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/base/BaseSortAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1818#1819#0" expanded="true" />
+                <element signature="e#1843#1844#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/SortExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SorterUIActionListener</find>
+      <find>setRunning</find>
+      <find>upda</find>
+      <find>randomizeButton</find>
+      <find>isrun</find>
+      <find>sortAlgorithmType</find>
+      <find>didStep</find>
+      <find>end</find>
+      <find>0</find>
+      <find>shuffle</find>
+      <find>shuffleButton</find>
+      <find>didPressStartButton</find>
+      <find>duration</find>
+      <find>radioButtons</find>
+      <find>(SortAlgorithmType type</find>
+      <find>didEnd(SortAlgorithmType type</find>
+      <find>SortAlgorithm</find>
+      <find>didbegin</find>
+      <find>loadSleepTimeSlider</find>
+      <find>sleeptime</find>
+      <find>yellow</find>
+      <find>gree</find>
+      <find>100`</find>
+      <find>threadPool</find>
+      <find>0,</find>
+      <find>sort</find>
+      <find>desktop</find>
+      <find>generateFixedArrayInOrder</find>
+      <find>arr)</find>
+      <find>stop</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/NewQuickSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/tests/NumberIntegrityTest.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/tests/QuickSortTest.java" />
+        <option value="$PROJECT_DIR$/docs/links.txt" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/SequentialOddEvenSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sound/SoundPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/interfaces/SortAlgorithmListener.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/ui/SorterPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/interfaces/SortAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/ui/Test.form" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/ui/MYGUI.form" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/ui/interfaces/SorterUIActionListener.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/ParallelOddEvenSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/OddEvenSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/Constants.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/ParallelQuickSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/ParallelBubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/SortExecutor.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/tests/SortingTests.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/tests/BubbleSortTests.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/util/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/tests/ArrayIntegrityTest.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/enums/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/MergeSort2.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/base/BaseSortAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/tests/MergeSortTests.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/tests/QuickSort2Tests.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/QuickSort2.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/enums/SortAlgorithmType.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/tests/QuickSortTests.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/sorter/ui/SorterUI.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/ui/SorterUI.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/interfaces/SortAlgorithmListener.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/SortTests.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/ArrayIntegrityTest.java" />
+        <option value="$PROJECT_DIR$/docs/opdracht.md" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/util/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/SortExecutor.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/BubbleSortTests.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/MergeSortTests.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/QuickSortTests.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/base/BaseSortAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/QuickSort.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2560" />
+    <option name="y" value="-847" />
+    <option name="width" value="2560" />
+    <option name="height" value="1337" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ParallelSorter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_parallelsorter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParallelSorter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_parallelsorter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParallelSorter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_parallelsorter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="parallelsorter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParallelSorter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_parallelsorter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="parallelsorter" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParallelSorter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_parallelsorter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="parallelsorter" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParallelSorter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_parallelsorter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="parallelsorter" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParallelSorter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="ToolWindow" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="ToolWindow" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="471" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544898304380" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mikedammers.sorter.sorting.enums" />
+      <recent name="com.mikedammers.multithreadedsorter.v1.parallel.methods" />
+      <recent name="com.mikedammers.multithreadedsorter.v1.parallel" />
+      <recent name="com.mikedammers.multhreadedsorter.sorting.methods" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mikedammers.sorter.tests" />
+      <recent name="com.mikedammers.sorter.sorting.algorithms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/extra" />
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/docs/bubblesort" />
+      <recent name="$PROJECT_DIR$/src/com/mikedammers/multhreadedsorter/v1/sorting/methods" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All Tests">
+    <configuration name="UI" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mikedammers.parallelsorter.Main" />
+      <module name="ParallelSorter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Tests" type="JUnit" factoryName="JUnit">
+      <module name="ParallelSorter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mikedammers.parallelsorter.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mikedammers.parallelsorter.tests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ParallelSorter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mikedammers.parallelsorter.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mikedammers.parallelsorter.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.mikedammers.parallelsorter.tests.BubbleSortTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ParallelSorter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mikedammers.parallelsorter.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mikedammers.parallelsorter.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.mikedammers.parallelsorter.tests.MergeSortTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ParallelSorter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mikedammers.parallelsorter.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mikedammers.parallelsorter.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.mikedammers.parallelsorter.tests.QuickSortTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UI" />
+      <item itemvalue="JUnit.BubbleSortTests" />
+      <item itemvalue="JUnit.QuickSortTests" />
+      <item itemvalue="JUnit.MergeSortTests" />
+      <item itemvalue="JUnit.All Tests" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee9dff5f-9922-4dcf-97c7-1a4de5b52f5f" name="Default Changelist" comment="" />
+      <created>1544132864378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544132864378</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_Tests - 2018.12.15 at 19h 11m 08s.xml">
+      <configuration name="All Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_Tests - 2018.12.15 at 19h 12m 13s.xml">
+      <configuration name="All Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_Tests - 2018.12.15 at 19h 12m 48s.xml">
+      <configuration name="All Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSortTests - 2018.12.15 at 19h 13m 56s.xml">
+      <configuration name="QuickSortTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_Tests - 2018.12.15 at 19h 14m 20s.xml">
+      <configuration name="All Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSortTests_(1) - 2018.12.15 at 19h 14m 44s.xml">
+      <configuration name="MergeSortTests (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BubbleSortTests - 2018.12.15 at 19h 15m 20s.xml">
+      <configuration name="BubbleSortTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSortTests - 2018.12.15 at 19h 15m 29s.xml">
+      <configuration name="QuickSortTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSortTests - 2018.12.15 at 19h 16m 11s.xml">
+      <configuration name="QuickSortTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSortTests - 2018.12.15 at 19h 17m 27s.xml">
+      <configuration name="QuickSortTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2560" y="-847" width="2560" height="1337" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6869469" visible="true" weight="0.15329626" />
+      <window_info id="Structure" order="1" sideWeight="0.3130531" side_tool="true" weight="0.24420913" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info x="-1505" y="-394" width="450" height="442" id="UI Designer" order="5" weight="0.18347895" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988086" weight="0.32610443" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75139" visible="true" weight="0.5076305" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.420969" weight="0.3004016" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992057" weight="0.3293556" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.23945902" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.24861" side_tool="true" visible="true" weight="0.5076305" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4785544" weight="0.27228916" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2494043" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.17238913" />
+      <window_info anchor="right" id="Palette" order="3" weight="0.10802224" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6869469" visible="true" weight="0.20730738" />
+      <window_info id="Structure" order="1" sideWeight="0.3130531" side_tool="true" weight="0.24420913" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32851407" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45274028" visible="true" weight="0.23866348" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992057" weight="0.39759037" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49960285" weight="0.24016064" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.54725975" side_tool="true" visible="true" weight="0.23866348" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4932486" weight="0.274463" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964938" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.17238913" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="currentState[i]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>Thread.currentThread().isInterrupted()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>getHeight()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/extra/SingleThreadedBubbleSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/extra/SingleThreadedOddEvenSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/extra/SingleThreadedSelectionSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/interfaces/SortAlgorithm.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/extra/SingleThreadedQuickSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/extra/OldParallelQuickSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/extra/MultiThreadedSelectionSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/extra/MultiThreadedMergeSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/SelectionSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/OddEvenSort.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="326" column="22" selection-start-line="326" selection-start-column="22" selection-end-line="326" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="196" column="46" selection-start-line="196" selection-start-column="46" selection-end-line="196" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/mergesort/merge-sort-ikea.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/selectionsort/explain.gif" />
+    <entry file="file://$PROJECT_DIR$/docs/selectionsort/pseudocode.txt" />
+    <entry file="file://$PROJECT_DIR$/docs/bubblesort/parallel.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/bubblesort/parallel_steps.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/bubblesort/parallel_pseudocode.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/bubblesort/pseudocode.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/mergesort/merge-sort-algorithm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/mergesort/pseudo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/quicksort/algorithm.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/quicksort/pseudocode.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/quicksort/quick2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/tests/QuickSort2Tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/sorter/sorting/algorithms/QuickSort2.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sound/SoundPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/SortTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/interfaces/SortAlgorithmListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParallelSorter.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/opdracht.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/ui/SorterPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/ui/SorterUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/ArrayIntegrityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/util/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2222#2223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/ui/interfaces/SorterUIActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/SortExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/enums/SortAlgorithmType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/BubbleSortTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/QuickSortTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/tests/MergeSortTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/base/BaseSortAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikedammers/parallelsorter/sorting/algorithms/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ParallelSorter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
